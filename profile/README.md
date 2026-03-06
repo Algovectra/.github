@@ -5,6 +5,7 @@
 **Computer vision, AR applications, and intelligent systems for industrial clients.**
 
 [![Website](https://img.shields.io/badge/algovectra.com-0a0a0a?style=flat-square&logo=vercel)](https://algovectra.com)
+📍 Brno, Czech Republic
 
 </div>
 
@@ -16,7 +17,16 @@ End-to-end CV pipeline for automated pizza quality control — cloud inference t
 
 | Component | Repo | Status |
 |-----------|------|--------|
-| **pizza-checker** — inference + cloud backend | [algovectra/pizza-checker](https://github.com/algovectra/pizza-checker) | 🔒 private |
+| **pizza-checker-backend** — inference API + cloud backend | [algovectra/pizza-checker-backend](https://github.com/algovectra/pizza-checker-backend) | 🔒 private |
+| **pizza-checker-camera** — edge camera client | [algovectra/pizza-checker-camera](https://github.com/algovectra/pizza-checker-camera) | 🔒 private |
+
+---
+
+## 🧠 Mentem
+
+| Component | Repo | Status |
+|-----------|------|--------|
+| **mentem** | [algovectra/mentem](https://github.com/algovectra/mentem) | 🔒 private |
 
 ---
 
@@ -31,6 +41,16 @@ Unity AR applications built for industrial and commercial clients.
 
 ---
 
+## ☸️ Infrastructure
+
+Kubernetes manifests and cluster configuration.
+
+| Component | Repo | Status |
+|-----------|------|--------|
+| **algovectra** — k8s manifests | [hnatekmarorg/algovectra](https://github.com/hnatekmarorg/algovectra) | public |
+
+---
+
 <div align="center">
-<sub>Algovectra · Prague 🇨🇿</sub>
+<sub>Algovectra · Brno 🇨🇿</sub>
 </div>
