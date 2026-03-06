@@ -48,8 +48,6 @@ Unity AR applications built for industrial and commercial clients.
 | Component | Repo | Stack | Status |
 |-----------|------|-------|--------|
 | **web** — Algovectra website | [Algovectra/web](https://github.com/Algovectra/web) | TypeScript | 🔒 private |
-| **serving-backend** — serving API | [Algovectra/serving-backend](https://github.com/Algovectra/serving-backend) | Python | 🔒 private |
-| **serving-frontend** — serving UI | [Algovectra/serving-frontend](https://github.com/Algovectra/serving-frontend) | — | 🔒 private |
 
 ---
 
