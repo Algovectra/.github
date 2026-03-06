@@ -5,7 +5,7 @@
 **Computer vision, AR applications, and intelligent systems for industrial clients.**
 
 [![Website](https://img.shields.io/badge/algovectra.com-0a0a0a?style=flat-square&logo=vercel)](https://algovectra.com)
-📍 Brno, Czech Republic
+&nbsp; 📍 Brno, Czech Republic
 
 </div>
 
@@ -15,18 +15,20 @@
 
 End-to-end CV pipeline for automated pizza quality control — cloud inference to edge hardware.
 
-| Component | Repo | Status |
-|-----------|------|--------|
-| **pizza-checker-backend** — inference API + cloud backend | [algovectra/pizza-checker-backend](https://github.com/algovectra/pizza-checker-backend) | 🔒 private |
-| **pizza-checker-camera** — edge camera client | [algovectra/pizza-checker-camera](https://github.com/algovectra/pizza-checker-camera) | 🔒 private |
+| Component | Repo | Stack | Status |
+|-----------|------|-------|--------|
+| **pizza-backend** — inference API + cloud backend | [Algovectra/pizza-backend](https://github.com/Algovectra/pizza-backend) | Python | 🔒 private |
+| **Camera** — edge camera client | [Algovectra/Camera](https://github.com/Algovectra/Camera) | Python | 🔒 private |
+| **pizza-admin** — admin dashboard | [Algovectra/pizza-admin](https://github.com/Algovectra/pizza-admin) | TypeScript | 🔒 private |
+| **CanmeraOS** — PiPoeCam OS image | [Algovectra/CanmeraOS](https://github.com/Algovectra/CanmeraOS) | Shell | 🔒 private |
 
 ---
 
 ## 🧠 Mentem
 
-| Component | Repo | Status |
-|-----------|------|--------|
-| **mentem** | [algovectra/mentem](https://github.com/algovectra/mentem) | 🔒 private |
+| Component | Repo | Stack | Status |
+|-----------|------|-------|--------|
+| **mentem** | [Algovectra/mentem](https://github.com/Algovectra/mentem) | TypeScript | 🔒 private |
 
 ---
 
@@ -34,10 +36,29 @@ End-to-end CV pipeline for automated pizza quality control — cloud inference t
 
 Unity AR applications built for industrial and commercial clients.
 
-| Component | Repo | Stack |
-|-----------|------|-------|
-| **isotra-3d-designer** — AR design configurator | [algovectra/isotra-3d-designer](https://github.com/algovectra/isotra-3d-designer) | Unity AR |
-| **pooltechnika-3d-pool** — AR pool visualizer | [algovectra/pooltechnika-3d-pool](https://github.com/algovectra/pooltechnika-3d-pool) | Unity AR |
+| Component | Repo | Stack | Status |
+|-----------|------|-------|--------|
+| **isotra** — AR design configurator | [Algovectra/isotra](https://github.com/Algovectra/isotra) | C# / Unity | 🔒 private |
+| **pooltechnika** — AR pool visualizer | [Algovectra/pooltechnika](https://github.com/Algovectra/pooltechnika) | JavaScript | 🔒 private |
+
+---
+
+## 🌐 Web & Serving
+
+| Component | Repo | Stack | Status |
+|-----------|------|-------|--------|
+| **web** — Algovectra website | [Algovectra/web](https://github.com/Algovectra/web) | TypeScript | 🔒 private |
+| **serving-backend** — serving API | [Algovectra/serving-backend](https://github.com/Algovectra/serving-backend) | Python | 🔒 private |
+| **serving-frontend** — serving UI | [Algovectra/serving-frontend](https://github.com/Algovectra/serving-frontend) | — | 🔒 private |
+
+---
+
+## ⚙️ Research & Tools
+
+| Component | Repo | Stack | Status |
+|-----------|------|-------|--------|
+| **metal-fingerprint** — hardware fingerprinting | [Algovectra/metal-fingerprint](https://github.com/Algovectra/metal-fingerprint) | Python | 🔒 private |
+| **city-jungle** | [Algovectra/city-jungle](https://github.com/Algovectra/city-jungle) | TypeScript | 🔒 private |
 
 ---
 
@@ -47,6 +68,8 @@ Kubernetes manifests and cluster configuration.
 
 | Component | Repo | Status |
 |-----------|------|--------|
+| **k8s** — cluster state | [Algovectra/k8s](https://github.com/Algovectra/k8s) | 🔒 private |
+| **kubernetes** — cluster state (legacy) | [Algovectra/kubernetes](https://github.com/Algovectra/kubernetes) | 🔒 private |
 | **algovectra** — k8s manifests | [hnatekmarorg/algovectra](https://github.com/hnatekmarorg/algovectra) | public |
 
 ---
