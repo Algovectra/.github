@@ -18,6 +18,7 @@ End-to-end CV pipeline for automated pizza quality control — cloud inference t
 | Component | Repo | Stack | Status |
 |-----------|------|-------|--------|
 | **pizza-backend** — inference API + cloud backend | [Algovectra/pizza-backend](https://github.com/Algovectra/pizza-backend) | Python | 🔒 private |
+| **pizza-widget** —  android widget | [Algovectra/pizza-widget](https://github.com/Algovectra/pizza-widget) | Java, Kotlin | 🔒 private |
 | **Camera** — edge camera client | [Algovectra/Camera](https://github.com/Algovectra/Camera) | Python | 🔒 private |
 | **pizza-admin** — admin dashboard | [Algovectra/pizza-admin](https://github.com/Algovectra/pizza-admin) | TypeScript | 🔒 private |
 | **CanmeraOS** — PiPoeCam OS image | [Algovectra/CanmeraOS](https://github.com/Algovectra/CanmeraOS) | Shell | 🔒 private |
